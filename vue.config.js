@@ -8,6 +8,7 @@ module.exports = {
                 changeOrigin: true,              //是否设置同源，输入是的
                 ws: true,
                 secure: false,
+                logLevel:'debug',
                 pathRewrite: {                   //路径重写
                     '/api': ''                     //选择忽略拦截器里面的单词
                 }
