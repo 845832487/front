@@ -10,7 +10,7 @@ module.exports = {
                 secure: false,
                 logLevel:'debug',
                 pathRewrite: {                   //路径重写
-                    '/api': ''                     //选择忽略拦截器里面的单词
+                    '^/api': ''                     //选择忽略拦截器里面的单词
                 }
             }
         }
